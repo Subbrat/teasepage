@@ -42,6 +42,26 @@ body, html {height: 100%}
    -->
   </div>
  <!-- bottom icon end -->
+  <div class="w3-display-bottomright w3-text-grey w3-xlarge" style="padding:0px 20px">
+ <p id="count" >0</p>
+ </div>
+  
+  
+</div>
+
+<script>
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/subbrat/teasepagecounter/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+</script>
   
   
 </div>
