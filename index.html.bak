@@ -20,6 +20,7 @@
 	background-size: cover;
 	}
 	</style>
+	
 <body>
 	<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
 		<div class="w3-display-middle">
@@ -33,6 +34,7 @@
 				<a href="https://subbrat.github.io/playmusic/" target="_blank" ><i class="fa fa-play-circle w3-xxlarge w3-hover-opacity"></i></a>
 			</center>
 		</div>
+		
 		<!-- bottom icons -->
 		<div class="w3-display-bottomleft w3-text-grey w3-xlarge" style="padding:24px 48px">
 			<a href="http://www.instagram.com/subbrat_" target="_blank" ><i class="w-3 white fa fa-instagram w3-hover-opacity"></i></a>
@@ -45,6 +47,7 @@
 			   <a href="https://www.quora.com/profile/Subbrat" target="_blank" ><i class="fa fa-info-circle w3-hover-opacity"></i></a
 			   -->
 		</div>
+		
 		<!-- bottom icon end -->
 		<div class="w3-display-bottomright w3-text-grey w3-xlarge" style="padding:0px 20px">
 			<p id="count" >0</p>
