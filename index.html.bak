@@ -62,7 +62,6 @@ function updateVisitCount() {
 		countEl.innerHTML = res.value;
 	})
 }
-</script>  
-</div>
+</script>
 </body>
 </html>
